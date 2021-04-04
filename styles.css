@@ -1,0 +1,453 @@
+/* THIS PAGE WAS CREATED FROM SCRATCH BY BENJAMIN SALVO */
+/* THE IDEA IS TO IMITATE *VS CODE DOWNLAOD PAGE* AS BEST AS POSSIBLE.
+IT IS ONLY FOR PRACTISE PURPOSES. DO NOT TRADE! */
+
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+body {
+}
+    
+img {
+    width: 1.6rem;
+    height: auto;
+    display: flex;
+
+}
+
+nav {
+    background-color: #333333;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+
+}
+
+@media(max-width: 1100px) {
+    li:nth-of-type(8) {
+        display: flex;
+        margin-right: 0 !important;
+    }
+
+    li:nth-of-type(9) {
+        margin-left: 0 !important;
+    }
+
+    .remover  {
+        display: none;
+    }
+
+    li:nth-of-type(9) {
+        margin-left: auto;
+        margin-right: 0 !important;
+}
+}
+
+@media(max-width: 964px) {
+    li:nth-of-type(5),
+    li:nth-of-type(6),
+    li:nth-of-type(7) {
+        display: none;
+}
+}
+
+@media(max-width: 755px) {
+    li:nth-of-type(8) {
+        display: none;
+    }
+
+    li:nth-of-type(9) {
+        margin-right: 0 !important;
+        margin-left: auto !important;
+    }
+}
+
+@media(max-width: 650px) {
+
+    li:nth-of-type(1),
+    li:nth-of-type(2),
+    li:nth-of-type(3),
+    li:nth-of-type(4) {    
+        display: none;
+}
+
+    .logo  {
+        margin-left: 0.5em !important;
+    }
+}
+
+li  a {
+    display: flex;
+    padding: 1rem 0.63em;
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+li a:hover {
+    color: white;
+}
+
+a:nth-of-type(1){
+    display: flex;
+}
+
+.main {
+    margin: auto 0;
+    padding: 1.15%;
+    text-decoration: none;
+    font-size: 1.35rem;
+    color: #fff;
+    margin-left: 3rem;
+}
+
+.main2  {
+    padding-left: 0.5rem;
+}
+
+li:nth-of-type(8) {
+    text-align: left;
+    margin-left: auto;
+    padding: 0 0.2rem;
+    padding-right: 3rem;
+    background-color: #444444;
+    font-size: 0.94rem;
+}
+
+
+
+li:nth-of-type(9) {
+    margin-right: 3.2rem;
+    background-color: #0066B8;
+}
+
+li:nth-of-type(9) > a {
+    padding: 1em 1.03rem;
+    color: #fff;
+}
+
+li:nth-of-type(9):hover {
+    background-color: #055697;
+}
+
+i {
+    margin: auto 0;
+    padding-right: 0.7em;
+    color: #fff;
+    font-weight: 700;
+}
+
+#nav2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #25252B;
+    padding: 0.8em 0;
+}
+
+#nav2  a {
+        text-decoration: none;
+
+}
+#nav2 i {
+    color: rgb(219, 219, 219);
+    padding-right: 1rem;
+    padding: auto 0;
+}
+
+.new_version  {
+ margin-left: auto;
+    margin-right: auto;
+    color: #CCCCCC;
+    font-size: 1.1em;
+
+}
+
+.version  {
+    color: #0098ff;
+}
+
+#writeup {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 2.8rem;
+    color:#444444;
+}
+
+br {
+    margin: 0;
+    padding: 0;
+}
+.seconda  {
+    font-size: 1.4rem;
+}
+
+
+
+
+#card  {
+    max-width: 25rem;
+    margin: auto;
+    padding: 0.5rem 0;
+    margin-bottom: 3rem;
+}
+
+#card img {
+    height: 120px;
+    width: 120px;
+    background-size: contain !important;
+    margin: 1em auto;
+}
+#card button{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0066B8;
+    box-shadow: none;
+    border: none;
+    display: block;
+    color: rgba(255,255,255,1);
+    padding: 1rem 5rem;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+}
+
+#card i{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.divide  {
+    display: flex;
+    overflow: hidden;
+    -o-text-overflow: clip;
+}
+
+.divide button {
+    padding: 1rem 3rem !important;
+    margin: 0 0.2em !important;
+}
+
+
+
+tr {
+    background: #0066B8;
+    text-align: center;    
+
+}
+
+th  {
+    border: 0.4px solid #0066b8;
+    border-radius: 0.2rem;
+    margin: 0.5rem;
+
+    
+
+
+}
+tr a {
+    text-decoration: none;
+    color: #fff;
+    text-overflow: hidden;
+    padding: 0.1em 0.3em;
+    font-size: 0.7em;
+}
+
+table {
+    margin: auto;
+    margin-top: 1.2em;
+}
+
+tr th:first-of-type {
+    background-color: #fff;
+    padding-right: 1.2rem;
+    border: none;
+}
+
+@media(min-width: 1000px) {
+    #container1 {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    #card  {
+        max-width: 33.3%;
+        height: 25rem !important;
+        border: none;
+        margin-right: 3rem;
+    }
+    #card button{
+        margin: 0 auto;
+        text-align: center;
+        background-color: #0066B8;
+        border: none;
+        color: rgba(255,255,255,1);
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .divide button {
+        padding: 1rem 2rem !important;
+        margin: auto 0.2em !important;
+    }
+}
+
+li:nth-of-type(9):hover {
+    background-color: #055697;
+}
+
+#container1 #card button:hover {
+    box-shadow: 1px 1px 9px #000;
+    background-color: mediumblue;
+
+}
+
+
+.available   {
+    text-align: center;
+    color: grey;
+    margin-top: 1.76rem !important;
+    margin-bottom: 5.5rem;
+}
+
+.available a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0098ff;
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035) 0.1s;
+}
+
+.available a:hover {
+    color: #055697;
+    border-bottom: 1px solid #055697;
+}
+
+.section1  {
+    text-align: center;
+    color: rgba(30, 30, 30, 0.7);
+    margin-bottom: 7rem;
+}
+
+.insider {
+    font-size: 1.1rem;
+    color: grey;
+}
+
+    @media (max-width: 900px){
+    footer {
+        height: 200px !important;
+        display: block;
+        flex-direction: column;
+}
+
+    .left_side {
+        margin: 0 !important;
+    }
+    }
+
+footer {
+    background-color: #333;
+    font-size: 12px;
+    padding: 25px 0;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+
+.left_side  {
+    display: flex;
+
+}
+
+footer span {
+    margin: auto;
+    font-size: 1.35em;
+    margin-left: 3rem;
+}
+
+.left_side  a:nth-of-type(1) {
+    color: #fff;
+    margin: auto;
+    margin-left: 1.4em;
+    font-size: 1.35em;
+    text-decoration: none;
+}
+
+.github {
+    display: flex;
+    margin: auto;
+    margin-right: 2em;
+}
+.github a:nth-of-type(1),
+.github a:nth-of-type(2){
+    padding: 3px 3px 3px 3px;
+    color: #333;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: seashell;
+    margin-left: 1.2em;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin-right: -0.4em;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.github i {
+    margin: auto;
+    color: #000;
+    font-size: 13px;
+}
+
+.right_side  {
+    font-size: 0.77rem;
+    color: #fff !important;
+
+}
+
+.right_side i {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+    right: -50px;
+}
+
+.right_side a:nth-of-type(1),
+.right_side a:nth-of-type(2), 
+.right_side a:nth-of-type(3),
+.right_side a:nth-of-type(4) {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.1em;
+
+}
+.right_side a:nth-of-type(5){
+    color: #fff !important;
+    font-size: 1.3em;
+    margin-right: 3em;
+    margin-left: 1em;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+
+
+.right_side li
